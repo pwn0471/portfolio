@@ -13,7 +13,7 @@ const Hero = () => {
               text-3xl
               sm:text-4xl
               md:text-6xl
-              lg:text-6xl
+              lg:text-5xl
               font-bold
               leading-tight
               text-white
@@ -32,7 +32,7 @@ const Hero = () => {
               mx-auto
               text-base
               md:text-lg
-              text-gray-400
+              text-gray-300
               leading-relaxed
             "
           >

@@ -1,13 +1,21 @@
-import React from 'react';
-
 const Footer = () => {
-  return (
-    <footer className="border-t border-x border-zinc-900 py-20 px-6 text-center max-w-4xl mx-auto">
-      <p className="text-zinc-600 text-[10px] uppercase tracking-[0.5em] font-bold">
-        © 2026 Dan Koe Clone. Built for the Digital Renaissance.
-      </p>
-    </footer>
-  );
+  try {
+    return (
+      <footer className="py-10 px-6 text-center">
+        <p className="text-gray-200 text-m">
+          © All Rights Reserved.
+        </p>
+      </footer>
+    );
+  } catch (error) {
+    console.error("Footer render error:", error);
+
+    return (
+      <footer className="py-10 text-center text-gray-200 text-m">
+        © All Rights Reserved.
+      </footer>
+    );
+  }
 };
 
 export default Footer;
