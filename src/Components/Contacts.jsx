@@ -48,7 +48,7 @@ const Contact = () => {
     return (
       <section
         id="contact"
-        className="relative px-6 py-32 bg-black overflow-hidden"
+        className="relative px-6 py-30 mb-32 bg-black overflow-hidden"
       >
         {/* ⭐ STAR BACKGROUND */}
         <div className="absolute inset-0 bg-[radial-gradient(circle,_rgba(255,255,255,0.06)_1px,_transparent_1px)] bg-[size:20px_20px] opacity-20" />

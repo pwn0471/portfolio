@@ -62,16 +62,14 @@ const About = () => {
             </h2>
 
             <p>
-              I’m a third-year B.Tech (Information Technology) student and a
-              passionate software developer focused on building clean,
-              scalable, and user-centric web applications.
+             I’m a third-year B.Tech (Information Technology) student focused on building clean, 
+             scalable, <br />and user-centric web applications.
             </p>
 
             <p>
-              My primary interest lies in modern web development using the
-              MERN stack. I enjoy working across the full development cycle —
-              from crafting intuitive interfaces to designing efficient
-              backend systems.
+              Focused on modern web development with the MERN stack, building intuitive user interfaces. <br />
+              Experienced in designing efficient, scalable backend systems.
+
             </p>
 
             <p>
@@ -79,14 +77,12 @@ const About = () => {
               <span className="text-white">
                 {" "}Java, Python, C, and Data Structures & Algorithms
               </span>,
-              which helps me write optimized, maintainable, and well-structured
+               <br /> which helps me write optimized, maintainable, and well-structured
               code.
             </p>
 
             <p className="text-white font-medium">
-              I’m continuously learning, experimenting with new technologies,
-              and improving my problem-solving skills to build meaningful
-              real-world software.
+              Focused on continuous learning and building scalable, real-world applications.
             </p>
 
           </div>
