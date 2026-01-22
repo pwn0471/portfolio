@@ -1,4 +1,5 @@
 const Hero = () => {
+  
   try {
     return (
       <section
