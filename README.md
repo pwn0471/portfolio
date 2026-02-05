@@ -1,16 +1,71 @@
-# React + Vite
+# 🌐 Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, editorial-style personal portfolio built to showcase my skills, projects, and professional experience with a clean and minimal user interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 About the Project
 
-## React Compiler
+This portfolio website represents my journey as a software developer.  
+It focuses on clarity, structure, and usability while presenting my work in a visually appealing and professional manner.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The project is designed to highlight my technical skills, real-world projects, and frontend development practices using modern web technologies.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+- Editorial-style, minimalist design  
+- Fully responsive layout (desktop & mobile)  
+- Smooth scroll-based animations  
+- Categorized skills and projects sections  
+- Interactive project cards with hover effects  
+- Clean and accessible UI  
+- Optimized for performance  
+
+---
+
+## 🛠️ Technologies Used
+
+### Frontend
+- React.js  
+- Tailwind CSS  
+- JavaScript (ES6+)  
+
+### Tools & Libraries
+- Vite  
+- React Icons  
+- Intersection Observer API  
+
+---
+
+
+
+
+
+## 🎯 What I Learned
+
+- Structuring a scalable React application  
+- Building responsive layouts using Tailwind CSS  
+- Implementing animations and interactions for better UX  
+- Writing clean, maintainable frontend code  
+- Designing professional, recruiter-friendly UI  
+
+---
+
+## 🔗 Live Demo & Repository
+
+- **Live Website:** https://pwn0471.github.io/portfolio/
+- **GitHub Repository:**https://github.com/pwn0471/portfolio
+
+---
+
+
+
+## ⭐ Acknowledgements
+
+Inspired by modern editorial and minimalist web design principles.
+
+---
+ ## Author
+ Pawan Kumar
