@@ -3,8 +3,10 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 import weat from "../assets/weat.jpg";
 import mus from "../assets/mus.jpg";
-import port2 from "../assets/port2.png";
+import recipe from "../assets/recipe.png"
 import spot from "../assets/spot.webp"
+import portfolio from "../assets/portfolio.svg"
+import bindasstalk from "../assets/bindaastalk.svg"
 
 const Projects = () => {
   const sectionRef = useRef(null);
@@ -80,24 +82,43 @@ const Projects = () => {
           </ProjectGroup>
 
           {/* ===== MAJOR PROJECT ===== */}
-          <div>
-            <h3 className="text-sm uppercase tracking-widest text-gray-400 mb-10">
-              Major Project
-            </h3>
+          
 
-            <div className="max-w-md ">
-              <ProjectCard
-                number="04"
-                title="Portfolio Website"
-                tags={["React", "Tailwind", "Personal"]}
-                desc="A carefully crafted personal site built to reflect my learning, projects, and growth as a developer."
-                image={port2}
-                glow="rgba(16,185,129,0.28)" // emerald
-                github="https://github.com/pwn0471/portfolio"
-                live=" https://pwn0471.github.io/portfolio/"
-              />
-            </div>
-          </div>
+          <ProjectGroup title="Major Projects">
+            <ProjectCard
+              number="04"
+              title="Portfolio Website"
+              tags={["React", "Tailwind", "Personal"]}
+              desc="A carefully crafted personal site built to reflect my learning, projects, and growth as a developer."
+              image={portfolio}
+              glow="rgba(16,185,129,0.28)" // emerald
+              github="https://github.com/pwn0471/portfolio"
+              live=" https://pwn0471.github.io/portfolio/"
+            />
+            <ProjectCard
+              number="05"
+              title="BindaasTalk – Real-Time Video & Chat App"
+              tags={[ "MongoDB", "Express Js","React", "Tailwind", "Next Js"]}
+              desc="MERN-based video chat and social app for connecting and communicating in real time , and build real conversations.."
+              image={bindasstalk}
+              glow="rgba(16,185,129,0.28)" // emerald
+              github="https://github.com/pwn0471/BindaasTalk"
+              live="bindaastalk-q0vb.onrender.com"
+            />
+
+            <ProjectCard
+              number="06"
+              title="RecipeHub – MERN Recipe Sharing Platform"
+              tags={[ "MongoDB", "Express Js","React", "Tailwind", "Next Js"]}
+              desc="ecipeHub is a modern MERN-stack recipe sharing platform designed for food lovers and home chefs."
+              image={recipe}
+              glow="rgba(16,185,129,0.28)" // emerald
+              github="https://github.com/pwn0471/RecipeHub"
+              live="recipehub-2oks.onrender.com/"
+            />
+
+            
+          </ProjectGroup>
 
         </div>
       </div>
@@ -139,7 +160,7 @@ const ProjectCard = ({
   live,
 }) => {
   return (
-    <div className="snap-start min-w-[240px] md:min-w-0">
+    <div className="snap-start min-w-[280px] md:min-w-0"> {/* increased width */}
       <div
         className="
           bg-neutral-900
@@ -152,40 +173,41 @@ const ProjectCard = ({
         "
       >
         {/* IMAGE WITH COLORED GLOW */}
-        <div className="relative w-full h-36 mb-5 flex items-center justify-center rounded-lg overflow-hidden">
+        <div className="relative w-full h-48 mb-5 flex items-center justify-center rounded-lg overflow-hidden">
+          {/* increased height h-36 → h-48 */}
+
           {/* Glow background */}
-  <div
-    className="absolute inset-0"
-    style={{
-      background: `radial-gradient(circle at center, ${glow}, rgba(0,0,0,0.92))`,
-    }}
-  />
+          <div
+            className="absolute inset-0"
+            style={{
+              background: `radial-gradient(circle at center, ${glow}, rgba(0,0,0,0.92))`,
+            }}
+          />
 
-  {/* Subtle inner vignette */}
-  <div className="absolute inset-0 shadow-[inset_0_0_40px_rgba(0,0,0,0.6)]" />
+          {/* Subtle inner vignette */}
+          <div className="absolute inset-0 shadow-[inset_0_0_40px_rgba(0,0,0,0.6)]" />
 
-
-   {/* Image */}
-    <img
-     src={image}
-     alt={title}
-      className="
-      relative z-10
-      max-h-30
-      w-auto
-      object-contain
-      mix-blend-screen
-      opacity-90
-      transition-transform duration-500
-      hover:scale-105
-      "
-      onError={(e) => {
-       try {
-        e.currentTarget.style.display = "none";
-        console.error("Project image failed:", title);
-       } catch {}
-      }}
-   />
+          {/* Image */}
+          <img
+            src={image}
+            alt={title}
+            className="
+              relative z-10
+              max-h-40   /* increased from max-h-30 */
+              w-auto
+              object-contain
+              mix-blend-screen
+              opacity-90
+              transition-transform duration-500
+              hover:scale-105
+            "
+            onError={(e) => {
+              try {
+                e.currentTarget.style.display = "none";
+                console.error("Project image failed:", title);
+              } catch {}
+            }}
+          />
         </div>
 
         {/* NUMBER */}
@@ -245,5 +267,4 @@ const ProjectCard = ({
     </div>
   );
 };
-
 export default Projects;

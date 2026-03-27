@@ -1,0 +1,89 @@
+<svg width="100%" viewBox="0 0 680 350" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0a0a"/>
+      <stop offset="100%" stop-color="#1a0533"/>
+    </linearGradient>
+    <linearGradient id="purpline" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#9333ea" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#9333ea"/>
+      <stop offset="100%" stop-color="#9333ea" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="680" height="340" fill="url(#bg)" rx="16" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Grid dots background -->
+  <g opacity="0.12" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.12;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+    <pattern id="dots" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#9333ea"/>
+    </pattern>
+    <rect width="680" height="340" fill="url(#dots)" rx="16" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  </g>
+
+  <!-- Glow circle left -->
+  <ellipse cx="100" cy="170" rx="120" ry="120" fill="#6b21a8" opacity="0.15" style="fill:rgb(107, 33, 168);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.15;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <!-- Glow circle right -->
+  <ellipse cx="580" cy="170" rx="100" ry="100" fill="#7c3aed" opacity="0.12" style="fill:rgb(124, 58, 237);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.12;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Top accent line -->
+  <rect x="0" y="0" width="680" height="3" fill="url(#purpline)" rx="2" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- PK Logo top left -->
+  <text x="40" y="52" font-family="Georgia, serif" font-size="28" fill="#ffffff" font-style="italic" font-weight="700" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Georgia, serif;font-size:28px;font-weight:700;font-style:italic;text-anchor:start;dominant-baseline:auto">PK</text>
+  <rect x="40" y="57" width="36" height="2" rx="1" fill="#9333ea" style="fill:rgb(147, 51, 234);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Main Title -->
+  <text x="340" y="118" text-anchor="middle" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#ffffff" letter-spacing="1" style="fill:rgb(255, 255, 255);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:38px;font-weight:700;text-anchor:middle;dominant-baseline:auto">Personal Portfolio</text>
+
+  <!-- Subtitle -->
+  <text x="340" y="152" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#c084fc" letter-spacing="2" style="fill:rgb(192, 132, 252);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:15px;font-weight:400;text-anchor:middle;dominant-baseline:auto">PAWAN KUMAR · FULL STACK DEVELOPER</text>
+
+  <!-- Divider line -->
+  <rect x="240" y="168" width="200" height="1" rx="1" fill="url(#purpline)" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- Tech badges -->
+  <!-- React -->
+  <rect x="156" y="188" width="68" height="28" rx="14" fill="#1e1e2e" stroke="#9333ea" stroke-width="1" style="fill:rgb(30, 30, 46);stroke:rgb(147, 51, 234);color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="190" y="207" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#c084fc" style="fill:rgb(192, 132, 252);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:auto">React</text>
+
+  <!-- Tailwind -->
+  <rect x="236" y="188" width="86" height="28" rx="14" fill="#1e1e2e" stroke="#9333ea" stroke-width="1" style="fill:rgb(30, 30, 46);stroke:rgb(147, 51, 234);color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="279" y="207" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#c084fc" style="fill:rgb(192, 132, 252);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:auto">Tailwind CSS</text>
+
+  <!-- Vite -->
+  <rect x="334" y="188" width="56" height="28" rx="14" fill="#1e1e2e" stroke="#9333ea" stroke-width="1" style="fill:rgb(30, 30, 46);stroke:rgb(147, 51, 234);color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="362" y="207" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#c084fc" style="fill:rgb(192, 132, 252);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:auto">Vite</text>
+
+  <!-- EmailJS -->
+  <rect x="402" y="188" width="76" height="28" rx="14" fill="#1e1e2e" stroke="#9333ea" stroke-width="1" style="fill:rgb(30, 30, 46);stroke:rgb(147, 51, 234);color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="440" y="207" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#c084fc" style="fill:rgb(192, 132, 252);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:auto">EmailJS</text>
+
+  <!-- Section icons row -->
+  <!-- About -->
+  <rect x="114" y="248" width="80" height="52" rx="10" fill="#18182a" stroke="#3b0764" stroke-width="1" style="fill:rgb(24, 24, 42);stroke:rgb(59, 7, 100);color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="154" y="272" text-anchor="middle" font-family="Arial" font-size="18" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial;font-size:18px;font-weight:400;text-anchor:middle;dominant-baseline:auto">👤</text>
+  <text x="154" y="291" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#9ca3af" style="fill:rgb(156, 163, 175);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:11px;font-weight:400;text-anchor:middle;dominant-baseline:auto">About</text>
+
+  <!-- Skills -->
+  <rect x="210" y="248" width="80" height="52" rx="10" fill="#18182a" stroke="#3b0764" stroke-width="1" style="fill:rgb(24, 24, 42);stroke:rgb(59, 7, 100);color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="250" y="272" text-anchor="middle" font-family="Arial" font-size="18" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial;font-size:18px;font-weight:400;text-anchor:middle;dominant-baseline:auto">⚡</text>
+  <text x="250" y="291" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#9ca3af" style="fill:rgb(156, 163, 175);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:11px;font-weight:400;text-anchor:middle;dominant-baseline:auto">Skills</text>
+
+  <!-- Projects -->
+  <rect x="306" y="248" width="80" height="52" rx="10" fill="#18182a" stroke="#3b0764" stroke-width="1" style="fill:rgb(24, 24, 42);stroke:rgb(59, 7, 100);color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="346" y="272" text-anchor="middle" font-family="Arial" font-size="18" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial;font-size:18px;font-weight:400;text-anchor:middle;dominant-baseline:auto">🚀</text>
+  <text x="346" y="291" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#9ca3af" style="fill:rgb(156, 163, 175);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:11px;font-weight:400;text-anchor:middle;dominant-baseline:auto">Projects</text>
+
+  <!-- Contact -->
+  <rect x="402" y="248" width="80" height="52" rx="10" fill="#18182a" stroke="#3b0764" stroke-width="1" style="fill:rgb(24, 24, 42);stroke:rgb(59, 7, 100);color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="442" y="272" text-anchor="middle" font-family="Arial" font-size="18" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial;font-size:18px;font-weight:400;text-anchor:middle;dominant-baseline:auto">📬</text>
+  <text x="442" y="291" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#9ca3af" style="fill:rgb(156, 163, 175);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:11px;font-weight:400;text-anchor:middle;dominant-baseline:auto">Contact</text>
+
+  <!-- Footer -->
+  <text x="340" y="328" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#6b7280" style="fill:rgb(107, 114, 128);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Arial, sans-serif;font-size:11px;font-weight:400;text-anchor:middle;dominant-baseline:auto">github.com/pwn0471 · linkedin.com/in/pawan-kumar-5ba309297</text>
+
+  <!-- Bottom accent line -->
+  <rect x="0" y="337" width="680" height="3" fill="url(#purpline)" rx="2" style="stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+</svg>

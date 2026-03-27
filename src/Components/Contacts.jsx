@@ -13,11 +13,11 @@ const Contact = () => {
     });
 
     const [errors, setErrors] = useState({});
-    const [status, setStatus] = useState(""); // "sending" | "success" | "error"
+    const [status, setStatus] = useState(""); 
 
     const handleChange = (e) => {
       setFormData({ ...formData, [e.target.name]: e.target.value });
-      setErrors({ ...errors, [e.target.name]: "" }); // clear error on type
+      setErrors({ ...errors, [e.target.name]: "" }); 
     };
 
     const validate = () => {
@@ -39,15 +39,15 @@ const Contact = () => {
 
       try {
         await emailjs.send(
-          "service_vrc1898",   // 🔁 Replace with your EmailJS Service ID
-          "template_faxcum8",  // 🔁 Replace with your EmailJS Template ID
+          "service_vrc1898",   
+          "template_faxcum8", 
           {
             from_name: formData.name,
             from_email: formData.email,
             phone: formData.phone,
             message: formData.message,
           },
-          "7nNpu7FbwyvfR_5s0"    // 🔁 Replace with your EmailJS Public Key
+          "7nNpu7FbwyvfR_5s0"    
         );
 
         setStatus("success");
