@@ -68,4 +68,4 @@ Inspired by modern editorial and minimalist web design principles.
 
 ---
  ## Author
- Pawan Kumar
+ Pawan Kumar  - Web Devloper
