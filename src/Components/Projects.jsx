@@ -110,14 +110,23 @@ const Projects = () => {
               number="06"
               title="RecipeHub – MERN Recipe Sharing Platform"
               tags={[ "MongoDB", "Express Js","React", "Tailwind", "Next Js"]}
-              desc="ecipeHub is a modern MERN-stack recipe sharing platform designed for food lovers and home chefs."
+              desc="RecipeHub is a modern MERN-stack recipe sharing platform designed for food lovers and home chefs."
               image={recipe}
               glow="rgba(16,185,129,0.28)" // emerald
               github="https://github.com/pwn0471/RecipeHub"
               live="recipehub-2oks.onrender.com/"
             />
 
-            
+            <ProjectCard
+              number="07"
+              title="Orbit-AI"
+              tags={[ "MongoDB", "Express Js","React", "Tailwind", "Next Js"]}
+              desc="ecipeHub is a modern MERN-stack recipe sharing platform designed for food lovers and home chefs."
+              image={recipe}
+              glow="rgba(16,185,129,0.28)" // emerald
+              github="https://github.com/pwn0471/Orbit-AI"
+              live=""
+            />
           </ProjectGroup>
 
         </div>
