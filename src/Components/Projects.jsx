@@ -5,7 +5,7 @@ import weat from "../assets/weat.jpg";
 import mus from "../assets/mus.jpg";
 import recipe from "../assets/recipe.png"
 import spot from "../assets/spot.webp"
-import portfolio from "../assets/portfolio.svg"
+import orbit from "../assets/orbit.png"
 import bindasstalk from "../assets/bindaastalk.svg"
 
 const Projects = () => {
@@ -85,18 +85,9 @@ const Projects = () => {
           
 
           <ProjectGroup title="Major Projects">
+            
             <ProjectCard
               number="04"
-              title="Portfolio Website"
-              tags={["React", "Tailwind", "Personal"]}
-              desc="A carefully crafted personal site built to reflect my learning, projects, and growth as a developer."
-              image={portfolio}
-              glow="rgba(16,185,129,0.28)" // emerald
-              github="https://github.com/pwn0471/portfolio"
-              live=" https://pwn0471.github.io/portfolio/"
-            />
-            <ProjectCard
-              number="05"
               title="BindaasTalk – Real-Time Video & Chat App"
               tags={[ "MongoDB", "Express Js","React", "Tailwind", "Next Js"]}
               desc="MERN-based video chat and social app for connecting and communicating in real time , and build real conversations.."
@@ -107,7 +98,7 @@ const Projects = () => {
             />
 
             <ProjectCard
-              number="06"
+              number="05"
               title="RecipeHub – MERN Recipe Sharing Platform"
               tags={[ "MongoDB", "Express Js","React", "Tailwind", "Next Js"]}
               desc="RecipeHub is a modern MERN-stack recipe sharing platform designed for food lovers and home chefs."
@@ -118,11 +109,11 @@ const Projects = () => {
             />
 
             <ProjectCard
-              number="07"
-              title="Orbit-AI"
-              tags={[ "MongoDB", "Express Js","React", "Tailwind", "Next Js"]}
-              desc="ecipeHub is a modern MERN-stack recipe sharing platform designed for food lovers and home chefs."
-              image={recipe}
+              number="06"
+              title="Orbit AI - AI Powered  Workspace"
+              tags={[ "MongoDB", "Express Js","React", "Next Js", "Tailwind"]}
+              desc="Developed an AI-powered workspace platform with smart notes, AI mentor, task tracking, and personalized roadmaps."
+              image={orbit}
               glow="rgba(16,185,129,0.28)" // emerald
               github="https://github.com/pwn0471/Orbit-AI"
               live=""
